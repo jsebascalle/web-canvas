@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Camara con canvas</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	
+	<div id="camara" >
+		<video id="video" autoplay></video>
+		<canvas id="canvas" width="640" height="480"></canvas>	
+		<button type="button" id="snap"><img src="./images/camera.png" ></button>
+		<div id="actions">
+			<button type="button" id="download"><img src="./images/download.png" ></button>
+			<button type="button" id="cancel"><img src="./images/cancel.png" ></button>
+			<button type="button" id="sticker"><img src="./images/sticker.png" ></button>	
+		</div>
+		<div id="stickers">
+			<img src="./images/1.png" class="sticker">
+			<img src="./images/2.png" class="sticker">
+			<img src="./images/3.png" class="sticker">
+		</div>
+	</div>
+	<a href="" id="download-link"></a>
+	<script type="text/javascript" src="./camara.js"></script>
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
