@@ -22,7 +22,6 @@
 		});
 
 		btnDownload.addEventListener("click", function() {
-			camara.context.drawImage(video, 0, 0, 640, 480);
 			var imageUrl = camara.canvas.toDataURL("image/png");
 			var link = document.getElementById("download-link");
 

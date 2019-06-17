@@ -26,6 +26,10 @@ body{
 	outline: none;
 }
 
+#snap img{
+	max-width: 70%;
+}
+
 #actions{
 	position: absolute;
 	top: 2em;
